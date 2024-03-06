@@ -6,75 +6,54 @@
     <title>@yield('title', 'OASYS')</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-        /* Estilos personalizados aquí si los tienes */
-        .bg-cabecera{
-           background:  #004a80;
-           height: 10%;
-           
-        }
-        .custom-heading {
-            font-weight: bold;
-            margin-top: 8%;
-            
-            
-        }
-        .container{
-            font-family: Verdana, Tahoma, sans-serif, sans-serif;
-            height: 30%;
-            display: flex;
-        }
-       
-        .item{
-            text-align: right;
-        }
-        .box {
-             flex: 1;
-             width: 50%;
-         }
-
-    </style>
-
-
+  
+    <link rel="stylesheet" href="estilos.css">
+  
 
 </head>
 <body>
     
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-cabecera">
-            <div class="container-fluid">
-               
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav"> 
-                        <!-- Mostrar imagen del logo -->
-                        <li class="nav-item">
-                            <img src="images/LOGO.png" style="max-height: 60px;">
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mx-3"> 
-                        <!-- Elementos del menú -->
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Casos de Éxito</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Software</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Publicaciones</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-cabecera">
+        <div class="container-fluid">
+            <!-- Logotipo a la izquierda -->
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <img src="imagenes/logo.png" style="max-height: 80px;">
+                    </li>
+                </ul>
             </div>
-        </nav>
-      
-    </header>
+            <!-- Botón de hamburguesa para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Elementos del menú a la derecha -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Casos de Éxito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Software</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Publicaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    
 
     <!-- Contenido principal -->
     @yield('content')

@@ -1,0 +1,28 @@
+ /* Estilos personalizados aquí si los tienes */
+ .bg-cabecera{
+    background:  #004a80;
+    height: 120px;
+    text-align: right;
+    color: #ffffff;
+    
+ }
+ .custom-heading {
+     font-weight: bold;
+     margin-top: 8%;
+     
+     
+ }
+ .container{
+     font-family: Verdana, Tahoma, sans-serif, sans-serif;
+     height: 30%;
+     display: flex;
+ }
+
+ .item{
+     text-align: right;
+ }
+ .box {
+      flex: 1;
+      width: 50%;
+  }
+ 
