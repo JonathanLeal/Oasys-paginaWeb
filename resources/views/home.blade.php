@@ -12,7 +12,7 @@
             <h4 class="sub-titulo">Online Audit System</h4>
         </div>
         <div class="col-md-6 imagen d-flex justify-content-center align-items-center">
-            <img src="imagenes/ISO.png"  class="img-fluid">
+            <img src="imagenes/ISO.png"  class="img-fluid" style="width: 80%; height: auto; display: block; margin: 0 auto; margin-top: auto;">
         </div>
      </div>
   
