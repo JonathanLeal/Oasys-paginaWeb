@@ -1,7 +1,7 @@
  /* Estilos personalizados aquí si los tienes */
  
  .header {
-    background-color: #062e85;
+    background-color: #161E70;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -13,10 +13,10 @@
     width: 100%; /* Asegura que el menú abarque todo el ancho */
     top: 0; /* Asegura que el menú esté pegado a la parte superior */
     z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
-    
-   
-        
+
 }
+
+
 
 .header img {
     max-height: 70px;
@@ -69,11 +69,11 @@
 
 /* Estilos personalizados aquí si los tienes */
 .container .row .col-md-6 .titulo{
-    color: #000; /* Color del texto en negro */
+    color: #000 !important; /* Color del texto en negro */
     text-decoration: none; /* Elimina el subrayado */
     font-weight: bolder;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 220px;
+    font-family:'Montserrat bold, Montserrat, Arial';
+    margin-top: 300px;
     text-align: center;
     font-size: 8rem;
    
@@ -81,7 +81,9 @@
 
 .container .row .col-md-6 .sub-titulo{
     text-align: center;
-}
+    font-family: 'Montserrat bold, Montserrat, Arial';
+    font-weight: bold;
+}   
 
 .container .row .col-md-6 .img-fluid{
     margin-top: 90px;
@@ -114,7 +116,60 @@
   }
   .nuestros-planes{
     text-align: center;
-    background: rgb(150, 198, 247);
+    color: #0a0a0a;
+    text-shadow: 2px 2px 4px #656C70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
   }
   
+  .dropdown-menu {
+    min-width: 100%;
+}
+
+.fa-check{
+    font-weight: bolder;
+    font-size: 18px;
+    color: green;
+}
+
+.bordeado {
+    border: 2px solid rgb(173, 160, 160);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.numero-grande {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card-title{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.quienes-somos{
+    text-align: center;
+    color: #0a0a0a;
+    text-shadow: 2px 2px 4px #656C70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.texto-quienes{
+    color:#656C70;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
