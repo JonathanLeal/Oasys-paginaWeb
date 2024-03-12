@@ -16,8 +16,8 @@
         <img class="imagenLogo" src="imagenes/BLANCO.png" style="max-height: 90px;">
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="{{ url('/home') }}">Inicio</a></li>
+                <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
                 <li><a href="#">Casos de Éxito</a></li>
                 <li><a href="#">Software</a></li>
                 <li><a href="#">Publicaciones</a></li> <!-- Agregado el cierre de la etiqueta 'a' -->
@@ -29,22 +29,25 @@
     @yield('content')
 
     <!-- Footer -->
-    <footer class="bg-dark text-light text-center py-4">
+    <footer class="bg-dark text-light text-center py-4 fixed">
         <div class="container">
             <div class="row align-items-center  pt-3 pb-3">
                 <div class="col-md-4">
                     <img class="logo-footer" src="imagenes/logo.png" style="max-height: 110px;">
                 </div>
                
-                <div class="col-md-4">
-                    <h5>Contáctanos:</h5>
-                    <div class="pl-2 d-flex"><i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <h5>Contáctanos:</h5><br>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
                         <p class="pl-2 mb-0">+503(6858-5513)</p>
                     </div>
-                    <div class="pl-2 d-flex"> <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
                         <p class="pl-2 mb-0">www.oasys.com</p>
                     </div>
                 </div>
+                
                 <div class="col-md-4">
                     <p>© {{ date('Y') }} OASYS. Todos los derechos reservados.</p>
                 </div>
