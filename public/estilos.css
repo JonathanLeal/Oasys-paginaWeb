@@ -325,6 +325,73 @@ z-index: 1;
 .casos{
     margin-top: 200px;
 }
+/*ESTILOS PARA EL ADMIN*/
+.header-admin {
+    background-color: #161E70;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+    align-items:center; /* Alinea los elementos verticalmente al centro */
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed; /* Fija el elemento en la parte superior de la pantalla */
+    width: 100%; /* Asegura que el menú abarque todo el ancho */
+    top: 0; /* Asegura que el menú esté pegado a la parte superior */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+
+}
+
+
+
+.header-admin img {
+    max-height: 70px;
+    transition: transform 0.3s ease; /* Transición suave para el tamaño de la imagen */
+}
+
+.header-admmin img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
+
+.header-admin nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-admin nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-admin nav ul li a {
+    color: #fff;
+   /* text-decoration: none;*/
+    
+}
+
+/* Efecto de resaltado al pasar el mouse, lo pone como botones
+.header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}*/
+
+ /* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .header-admin {
+        text-align: center;
+    }
+    .header-admin nav {
+        display: block;
+        margin-top: 10px;
+    }
+    .header-admin nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
 
 
 
