@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
@@ -56,6 +57,7 @@ class AuthController extends Controller
     public function register(Request $request){
         $validator = Validator::make($request->all(), [
             'usuario' => 'required|string',
+            'email' => 'required|email',
             'password' => 'required|string'
         ]);
 
@@ -66,8 +68,10 @@ class AuthController extends Controller
         DB::beginTransaction();
         try {
             $user = new User();
-            $user->email = $request->usuario;
-            $user->password = $request->password;
+            $user->name     = $request->usuario;
+            $user->email    = $request->email;
+            $user->password = Hash::make($request->password);
+            $user->save();
         } catch (\Throwable $th) {
             DB::rollBack();
             return response()->json(['error' => $th->getMessage()], 500);
