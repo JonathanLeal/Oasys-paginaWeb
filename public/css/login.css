@@ -1,0 +1,48 @@
+body {
+    background-color: #161E70;
+  }
+  
+  .card {
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #1F7AFF;
+    border-bottom: none;
+  }
+  
+  .card-footer {
+    background-color: #656C70;
+    border-top: none;
+  }
+  
+  .btn-primary {
+    background-color: #1F7AFF;
+    border-color: #1F7AFF;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a6fcc;
+    border-color: #1a6fcc;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(31, 122, 255, 0.5);
+  }
+  
+  .form-control {
+    border-color: #656C70;
+  }
+  
+  .form-control:focus {
+    border-color: #1F7AFF;
+    box-shadow: 0 0 0 0.2rem rgba(31, 122, 255, 0.25);
+  }
+  
+  .label {
+    color: #1F7AFF;
+  }
+  
