@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/login.css">
   <!-- Agregar jQuery desde un CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -26,16 +27,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                   </div>
-                  <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="username">Usuario</label>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                  </div>
-                  <input type="text" class="form-control" id="usuario" placeholder="Ingrese su usuario">
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
                 </div>
               </div>
               <div class="form-group">
@@ -44,7 +36,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-lock"></i></span>
                   </div>
-                  <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+                  <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña" required>
                 </div>
               </div>
               <button type="submit" id="btnIngresar" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Ingresar</button>

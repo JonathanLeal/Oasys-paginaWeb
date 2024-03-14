@@ -4,12 +4,11 @@ $(document).ready(function() {
 $("#btnIngresar").on("click", function(e) {
     e.preventDefault();
     var usuario = {
-        usuario: $("#usuario").val(),
-        email: $("email").val(),
-        password: $("password").val()
+        email: $("#email").val(),
+        password: $("#password").val()
     }
     $.ajax({
-        url: "api/register",
+        url: "api/auth/login",
         type: "POST",
         dataType: "JSON",
         data: usuario,
@@ -17,10 +16,11 @@ $("#btnIngresar").on("click", function(e) {
             console.log(response);
             Swal.fire({
             icon: 'success',
-            title: 'usuario guardado con exito',
+            title: 'usuario Logueado con exito',
             showConfirmButton: false,
             timer: 3000
             })
+            window.location.href = `/`;
         },
         error: function(error) {
             console.log(error);
