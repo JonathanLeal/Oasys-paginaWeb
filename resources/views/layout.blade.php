@@ -31,6 +31,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-4 fixed">
+        <i class="fab fa-whatsapp" style="font-size: 2em; color: green; cursor: pointer;" onclick="enviarMensajeWhatsApp()"></i>
         <div class="container">
             <div class="row align-items-center  pt-3 pb-3">
                 <div class="col-md-4">

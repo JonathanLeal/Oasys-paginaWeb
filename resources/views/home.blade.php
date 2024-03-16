@@ -271,6 +271,7 @@
                 </div>
             </div>
           </div>
+          <i class="fab fa-whatsapp" style="font-size: 2em; color: green; cursor: pointer;" onclick="enviarMensajeWhatsApp()"></i>
 </div>
 </div><br><br>
 <script>
@@ -335,6 +336,20 @@ function toggleDropdown5() {
   var dropdownMenu5 = document.getElementById("dropdownMenu5");
   dropdownMenu5.classList.toggle("active");
 }
+
+function enviarMensajeWhatsApp() {
+    // Número de teléfono al que se enviará el mensaje
+    var numeroTelefono = "+50378823329"; // Reemplaza con el número al que deseas enviar el mensaje
+    
+    // Mensaje que se enviará por WhatsApp
+    var mensaje = "¡Hola! Estoy interesado en sus servicios. ¿Podemos hablar más al respecto?";
+    
+    // Genera el enlace para enviar el mensaje por WhatsApp
+    var enlaceWhatsApp = "https://api.whatsapp.com/send?phone=" + numeroTelefono + "&text=" + encodeURIComponent(mensaje);
+    
+    // Abre el enlace en una nueva pestaña del navegador
+    window.open(enlaceWhatsApp);
+  }
 </script>
 
 @endsection
