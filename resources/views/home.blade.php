@@ -271,7 +271,6 @@
                 </div>
             </div>
           </div>
-          <i class="fab fa-whatsapp" style="font-size: 2em; color: green; cursor: pointer;" onclick="enviarMensajeWhatsApp()"></i>
 </div>
 </div><br><br>
 <script>
