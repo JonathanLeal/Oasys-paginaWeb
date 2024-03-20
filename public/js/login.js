@@ -15,15 +15,35 @@ $("#btnIngresar").on("click", function(e) {
         success: function(response) {
             console.log(response);
             Swal.fire({
-            icon: 'success',
-            title: 'usuario Logueado con exito',
-            showConfirmButton: false,
-            timer: 3000
+                icon: 'success',
+                title: 'usuario Logueado con exito',
+                text: 'Bienvenido jejejeje',
+                showConfirmButton: true,
+            }).then(() => {
+                window.location.href = `/ad`;
             })
-            window.location.href = `/`;
         },
         error: function(error) {
-            console.log(error);
+            if (error.status === 422) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Notificacion',
+                    text: 'Debe llenar todos los campos y de manera correcta por favor',
+                    showConfirmButton: true
+                })
+            }
+
+            if (error.status === 401) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Notificacion',
+                    text: 'Credenciales incorrectas',
+                    showConfirmButton: true
+                }).then(() => {
+                    $("#email").val("");
+                    $("#password").val("");
+                })
+            }
         }
     });
 });
