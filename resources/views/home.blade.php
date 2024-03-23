@@ -22,7 +22,7 @@
      <div class="row col-md-6">
        
           <div class=" imagen d-flex justify-content-center align-items-center">
-            <img src="imagenes/ISO-BLANCO.png"  class="img-fluid" style="width: 80%; height: auto; display: block; margin-top: 100px; maging-bottom: 0">
+            <img src="imagenes/ISO-BLANCO.png"  class="img-fluid" style="width: 80%; height: auto; display: block; margin-top: 110px; maging-bottom: 0">
            
           </div>
             
@@ -32,28 +32,38 @@
      </div>
    </div>
   </div>
- <br>
- <br>
+
+ 
  <div class="container">
 
      <h2 class="quienes-somos"></h2>
-     <div class="texto">
-         <h2 style="font-family: Montserrat bold, Montserrat, Arial; color:#656C70;font-weight: bold;">Bienvenido a OASYS: Tu socio confiable en sistemas de Auditoría</h2>
-          <h4 class="text-center texto-quienes" style="font-family: Montserrat bold, Montserrat, Arial; ">
+     <div class="row h-100">
+      <div class="col-md-6  d-flex flex-column">
+        <div class="texto">
+          <h2 style="font-family: Montserrat bold, Montserrat, Arial; color:#656C70;font-weight: bold;">Bienvenido a OASYS: Tu socio confiable en sistemas de Auditoría</h2>
+          <h4 class="texto-quienes" style="font-family: Montserrat bold, Montserrat, Arial; ">
             Por que entendemos la importancia de contar
             con un sistema de auditoría robusto y eficaz para garantizar la integridad y
-             eficiencia de tu empresa.<br> Nos enorgullece ofrecer soluciones 
-             diseñadas para satisfacer las necesidades específicas de tu organización. 
+            eficiencia de tu empresa.<br> Nos enorgullece ofrecer soluciones 
+            diseñadas para satisfacer las necesidades específicas de tu organización. 
             <br>Utilizamos tecnología de vanguardia para simplificar y agilizar el proceso de auditoría. 
             <br>
-               Ofrecemos una variedad de planes de pago, diseñados para adaptarse a diferentes roles
-               y niveles de servicio en la auditoría. </h4>
+            Ofrecemos una variedad de planes de pago, diseñados para adaptarse a diferentes roles
+            y niveles de servicio en la auditoría.
+          </h4>
+        </div>
       </div>
-             <br>
-              <div class="video d-flex justify-content-center align-item-center">
-                       <!-- Aquí inserta el código de tu video -->
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TUxYJH2rldQ" frameborder="0" allowfullscreen></iframe>
-              </div><br><br>
+      <div class="col-md-6  d-flex flex-column">
+        <div class="video d-flex justify-content-center align-items-center flex-grow-1">
+          <!-- Aquí inserta el código de tu video -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TUxYJH2rldQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    
+
+              <br><br>
+
                <h1 class="nuestros-planes" id="planes">Planes Personales</h1><br>
     <!--tarjetas, primer bloque-->
     <div class="container" style="text-align: center;">
@@ -317,11 +327,49 @@
           </div>
       </div>
     </div>
+<br>
+    <h1 class="d-flex justify-content-center" style="font-weight: bold">PREGUNTAS FRECUENTES</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            
+            <button class="btn  btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;font-weight: bolder;">
+              ¿Puedo cambiar a otro plan?
+            </button>
+          </h2>
+        </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body" style="font-size: 20px">
+            Si tu empresa o negocio necesita cambiar de plan, puede hacerlo, solo comunicate con Soporte Técnico.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            
+            <button class="btn  btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="font-size: 20px; 
+            font-weight: bolder;">
+              ¿Cuanto debo esperar para empezar a trabajar en el sistema de auditoría?
+            </button>
+          </h2>
+        </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body" style="font-size: 20px;">
+            Una vez realices la compra de tu plan, nuestro equipo de Soporte se comunicará contigo.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
 
  </div><!--div del container principal-->
 
 
 <script>
+  $('.collapse').collapse()
  // Seleccionamos el elemento que queremos animar
  const quienesSomos = document.querySelector('.quienes-somos');
 
