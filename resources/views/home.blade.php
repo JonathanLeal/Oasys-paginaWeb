@@ -27,8 +27,8 @@
           </div>
             
        
-        <h1 class="titulo">OASYS</h1>
-        <h4 class="sub-titulo">Online Audit System</h4>
+        <!--h1 class="titulo">OASYS</h1-->
+        <h1 class="sub-titulo">Online Audit System</h1>
      </div>
    </div>
   </div>
@@ -36,243 +36,291 @@
  <br>
  <div class="container">
 
-  <h1 class="quienes-somos">¿Quiénes somos?</h1>
-<h4 class="text-center texto-quienes">Somos una empresa comprometida en buscar la 
-  excelencia y calidad, a través de soluciones integrales 
-  en nuestro software. <br>Ofrecemos nuestros servicios a 
-  negocios en desarrollo. </h4>
-<br>
-    <h1 class="nuestros-planes">Conoce sobre nuestros Planes</h1><br>
-    <!--tarjetas-->
-   
-    <div class="row row-cols-1 row-cols-md-3 g-4 ">
-        
-      <div class="col mx-auto">
-        <div class="card h-100 border-primary shadow" id="card1" >
-          <div class="card-header bg bg-primary"><h4 class="card-title">PLAN PERSONAL</h4>
-          </div>
-            <div class="card-body text-center">
-               <h6 class="card-subtitle mb-2 text-body-secondary"><b>1 Usuario</b></h6>
-               <p class="card-text">Inversión Mensual</p>
-               <h1>US $8.<small><sup><b>25</b></sup></small></h1>
-               <p>(Precio de introducción incluye IVA)</p>
-               
-               <div class="d-flex justify-content-center"> <!-- Agregar esta línea -->
-                <button type="button" class="btn btn-primary mb-2">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-               </div>
-               <div class="dropdown w-100" > <!-- Agregar la clase w-100 -->
-                <button class="btn border-primary dropdown-toggle" type="button" id="dropdownMenuButton" onclick="toggleDropdown1()">
-                    Ver Detalles
-                </button>
-                <ul class="dropdown-menu" id="dropdownMenu1">
-                    <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                        <p class="pl-2 mb-0">"Socio de la firma" Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.</p>
-                    </li>
-                    <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                        <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p></li>
-                    <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                        <p class="pl-2 mb-0">Licencia: 1 año.</p></li>
-                    <li><div class="pl-2 d-flex justify-content-center">
-                        <div class="bordeado text-center"> <!-- Centrar el div -->
-                          <p class="mb-0"><b>Inversión Anual</b></p>
-                          <span class="numero-grande">US $99.<sup>00</sup></span>
-                          <p>(Precio de introducción incluye IVA)</p>
-                        </div>
-                    </div></li>
-                </ul>
-            </div>
-            </div>
-        </div>
+     <h2 class="quienes-somos"></h2>
+     <div class="texto">
+         <h2 style="font-family: Montserrat bold, Montserrat, Arial; color:#656C70;font-weight: bold;">Bienvenido a OASYS: Tu socio confiable en sistemas de Auditoría</h2>
+          <h4 class="text-center texto-quienes" style="font-family: Montserrat bold, Montserrat, Arial; ">
+            Por que entendemos la importancia de contar
+            con un sistema de auditoría robusto y eficaz para garantizar la integridad y
+             eficiencia de tu empresa.<br> Nos enorgullece ofrecer soluciones 
+             diseñadas para satisfacer las necesidades específicas de tu organización. 
+            <br>Utilizamos tecnología de vanguardia para simplificar y agilizar el proceso de auditoría. 
+            <br>
+               Ofrecemos una variedad de planes de pago, diseñados para adaptarse a diferentes roles
+               y niveles de servicio en la auditoría. </h4>
       </div>
-          <div class="col mx-auto">
-            <div class="card h-100 shadow" style="border-color:#656C70;" >
-              <div class="card-header bg bg-secondary"><h4 class="card-title">PLAN DINÁMICO</h4>
-              </div>
-                <div class="card-body text-center">
-                   <h6 class="card-subtitle mb-2 text-body-secondary"><b>2 Usuarios</b></h6>
-                   <p class="card-text ">Inversión Mensual</p>
-                   <h1>US $14.<small><sup><b>92</b></sup></small></h1>
-                   <p>(Precio de introducción incluye IVA y descuento del 10%)</p>
-                   
-                   <div class="d-flex justify-content-center">
-                    <button type="button" class="btn mb-2" style="background: #656C70; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                   </div>
-                   <div class="dropdown w-100" > <!-- Agregar la clase w-100 -->
-                    <button class="btn border-primary dropdown-toggle" type="button" id="dropdownMenuButton" onclick="toggleDropdown2()">
-                        Ver Detalles
-                    </button>
-                    <ul class="dropdown-menu" id="dropdownMenu2">
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">"Socio de la firma"<br>
-                              Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.
-                            </p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                          <p class="pl-2 mb-0">"Supervisor"<br>
-                            Funciones: crear, modificar, revisar y acceso a reportes de todo el proceso de auditoría.
-                          </p>
-                      </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p></li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Licencia: 1 año.</p></li>
-                        <li><div class="pl-2 d-flex justify-content-center">
-                            <div class="bordeado text-center"> <!-- Centrar el div -->
-                              <p class="mb-0"><b>Inversión Anual</b></p>
-                              <span class="numero-grande">US $179.<sup>00</sup></span>
-                              <p>(Precio de introducción incluye IVA y descuento del 10%)</p>
-                            </div>
-                        </div></li>
-                    </ul>
+             <br>
+              <div class="video d-flex justify-content-center align-item-center">
+                       <!-- Aquí inserta el código de tu video -->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TUxYJH2rldQ" frameborder="0" allowfullscreen></iframe>
+              </div><br><br>
+               <h1 class="nuestros-planes" id="planes">Planes Personales</h1><br>
+    <!--tarjetas, primer bloque-->
+    <div class="container" style="text-align: center;">
+      <div class="card-container">
+          <div style="width:100%">
+            <div class="card h-100 border-primary shadow mr-auto" id="card1">
+                <div class="card-header bg bg-primary">
+                    <h4 class="card-title">PLAN PERSONAL</h4>
                 </div>
+                <div class="card-body text-center">
+                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>1 Usuario</b></h6>
+                    <p class="card-text">Inversión Mensual</p>
+                    <h1>US $8.<small><sup><b>25</b></sup></small></h1>
+                    <p>(Precio de introducción incluye IVA)</p>
+    
+                    <div class="d-flex justify-content-center mb-3" style="padding-top: 8%">
+                        <button type="button" class="btn btn-primary">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    </div>
+    
+                      <div class="dropdown1 w-100 pt-2">
+                        <button class="btn border-primary dropdown-toggle text-center" type="button" id="dropdownMenuButton1" onclick="toggleDropdown('dropdownMenu1')" aria-haspopup="true" aria-expanded="false">
+                            Ver Detalles
+                        </button>
+                        <ul class="dropdown-menu1" id="dropdownMenu1" aria-labelledby="dropdownMenuButton1" style="text-align: left">
+                            <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                                <p class="pl-2 mb-0">"Socio de la firma" Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.</p>
+                            </li>
+                            <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                                <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
+                            </li>
+                            <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                                <p class="pl-2 mb-0">Licencia: 1 año.</p>
+                            </li>
+                            <li>
+                                <div class="pl-2 d-flex justify-content-center">
+                                    <div class="bordeado text-center">
+                                        <p class="mb-0"><b>Inversión Anual</b></p>
+                                        <span class="numero-grande">US $99.<sup>00</sup></span>
+                                        <p>(Precio de introducción incluye IVA)</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                      </div>
                 </div>
             </div>
           </div>
-          <div class="col mx-auto">
-            <div class="card h-100 shadow" style="border-color: #161E70;">
-              <div class="card-header" style="background: #161E70"><h4 class="card-title">PLAN ESTRATÉGICO</h4>
+      </div>
+      <!--otra card-->
+      <div class="card-container">
+          <div style="width: 100%;">
+               <div class="card h-100 border-primary shadow" id="card2">
+                  <div class="card-header bg bg-primary">
+                  <h4 class="card-title" style="color: white;">PLAN CAMPUS</h4>
+                  </div>
+                <div class="card-body text-center">
+                  <h6 class="card-subtitle mb-2 text-body-secondary"><b>10 a más Usuarios</b></h6>
+                    <p class="card-text">Inversión Mensual</p>
+                    <h1>US $8.<small><sup><b>33</b></sup></small></h1>
+                    <p>(Precio de introducción por licencia incluye IVA)</p>
+
+                    <div class="d-flex justify-content-center mb-3">
+                      <button type="button" class="btn btn-primary">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    </div>
+
+                    <div class="dropdown2 w-100">
+                      <button class="btn border-primary dropdown-toggle text-center" type="button" id="dropdownMenuButton2" onclick="toggleDropdown('dropdownMenu2')" aria-haspopup="true" aria-expanded="false">
+                          Ver Detalles
+                      </button>
+                       <ul class="dropdown-menu2 " id="dropdownMenu2" aria-labelledby="dropdownMenuButton2" style="text-align: left">
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">"Docente"<br>Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.</p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">“Estudiante”<br>Funciones: crear, modificar, y acceso a reportes de las fases de planeación, ejecución e informe de auditoría.
+                            </p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">Licencia: 6 meses.</p>
+                          </li>
+                          <li>
+                             <div class="pl-2 d-flex justify-content-center">
+                                <div class="bordeado text-center"> <!-- Centrar el div -->
+                                <p class="mb-0"><b>Inversión Semestral</b></p>
+                                <span class="numero-grande">US $49.<sup>99</sup></span>
+                                <p>(Precio de introducción por licencia incluye IVA)</p>
+                                </div>
+                             </div>
+                          </li>
+                       </ul>
+                    </div>
+            
+                </div>
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <!--segundo bloque de card, card 3-->
+    <div class="container" style="text-align: center;">
+      <h1 class="plan-emp text-center">Planes Empresariales</h1><br>
+      <div class="card-container">
+          <div style="width:100%">
+            <div class="card h-100 shadow" style="border-color: #161E70;" >
+              <div class="card-header" style="background-color: #161E70;"><h4 class="card-title">PLAN DINÁMICO</h4>
               </div>
                 <div class="card-body text-center">
-                   <h6 class="card-subtitle mb-2 text-body-secondary"><b>3 Usuarios</b></h6>
-                   <p class="card-text ">Inversión Mensual</p>
-                   <h1>US $19.<small><sup><b>09</b></sup></small></h1>
-                   <p>(Precio de introducción incluye IVA y descuento del 22.9%)</p>
-                   
-                   <div class="d-flex justify-content-center"> <!-- Agregar esta línea -->
-                    <button type="button" class="btn mb-2" style="background: #161E70; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                   </div>
-                   <div class="dropdown w-100" > <!-- Agregar la clase w-100 -->
-                    <button class="btn border-primary dropdown-toggle" type="button" id="dropdownMenuButton" onclick="toggleDropdown3()">
-                        Ver Detalles
-                    </button>
-                    <ul class="dropdown-menu" id="dropdownMenu3">
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>2 Usuario</b></h6>
+                    <p class="card-text">Inversión Mensual</p>
+                    <h1>US $14.<small><sup><b>92</b></sup></small></h1>
+                    <p>(Precio de introducción incluye IVA y descuento del 10%)</p>
+    
+                    <div class="d-flex justify-content-center mb-2">
+                      <button type="button" class="btn" style="background: #161E70;; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    </div>
+    
+                    <div class="dropdown3 w-100 pt-2">
+                      <button class="btn border-primary dropdown-toggle text-center" type="button" id="dropdownMenuButton3" onclick="toggleDropdown('dropdownMenu3')" aria-haspopup="true" aria-expanded="false">
+                          Ver Detalles
+                      </button>
+                        <ul class="dropdown-menu3" id="dropdownMenu3" aria-labelledby="dropdownMenuButton3" style="text-align: left">
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
                             <p class="pl-2 mb-0">"Socio de la firma"<br>
                               Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.
-                              </p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                          <p class="pl-2 mb-0">"Supervisor"<br>
-                            Funciones: crear, modificar, revisar y acceso a reportes de todo el proceso de auditoría.
                             </p>
-                      </li>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                             <p class="pl-2 mb-0">"Supervisor"<br>
+                            Funciones: crear, modificar, revisar y acceso a reportes de todo el proceso de auditoría.
+                             </p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p></li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">Licencia: 1 año.</p></li>
+                          <li>
+                            <div class="pl-2 d-flex justify-content-center">
+                              <div class="bordeado text-center"> <!-- Centrar el div -->
+                                <p class="mb-0"><b>Inversión Anual</b></p>
+                                 <span class="numero-grande">US $179.<sup>00</sup></span>
+                                 <p>(Precio de introducción incluye IVA y descuento del 10%)</p>
+                              </div>
+                           </div>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!--card 4-->
+      <div class="card-container">
+          <div style="width: 100%;">
+            <div class="card h-100 shadow" style="border-color: #161E70;">
+                 <div class="card-header" style="background: #161E70"><h4 class="card-title">PLAN ESTRATÉGICO</h4>
+                 </div>
+                <div class="card-body text-center">
+                  <h6 class="card-subtitle mb-2 text-body-secondary"><b>3 Usuarios</b></h6>
+                    <p class="card-text">Inversión Mensual</p>
+                    <h1>US $19.<small><sup><b>09</b></sup></small></h1>
+                    <p>(Precio de introducción incluye IVA y descuento del 22.9%)</p>
+
+                    <div class="d-flex justify-content-center mb-2">
+                      <button type="button" class="btn" style="background: #161E70;; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                    </div>
+
+                    <div class="dropdown4 w-100 pt-2">
+                      <button class="btn border-primary dropdown-toggle text-center" type="button" id="dropdownMenuButton4" onclick="toggleDropdown('dropdownMenu4')" aria-haspopup="true" aria-expanded="false">
+                          Ver Detalles
+                      </button>
+                       <ul class="dropdown-menu4" id="dropdownMenu4" aria-labelledby="dropdownMenuButton4" style="text-align: left">
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">"Socio de la firma"<br>
+                            Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.
+                            </p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                             <p class="pl-2 mb-0">"Supervisor"<br>
+                             Funciones: crear, modificar, revisar y acceso a reportes de todo el proceso de auditoría.
+                             </p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                             <p class="pl-2 mb-0">"Asistente de Auditoría"<br>
+                              Funciones: crear, modificar, y acceso a reportes de las fases de planeación, ejecución e informe de auditoría.
+                               </p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                             <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
+                          </li>
+                          <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                             <p class="pl-2 mb-0">Licencia: 1 año.</p>
+                          </li>
+                          <li>
+                            <div class="pl-2 d-flex justify-content-center">
+                               <div class="bordeado text-center"> <!-- Centrar el div -->
+                                  <p class="mb-0"><b>Inversión Anual</b></p>
+                                  <span class="numero-grande">US $229.<sup>00</sup></span>
+                                  <p>(Precio de introducción incluye IVA y descuento del 22.9%)</p>
+                               </div>
+                            </div>
+                          </li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!--otra card 5-->
+      <div class="card-container">
+          <div style="width: 100%;">
+            <div class="card h-100 shadow" style="border-color: #161E70;">
+              <div class="card-header" style="background: #161E70;"><h4 class="card-title">PLAN CORPORATIVO</h4>
+              </div>
+              <div class="card-body text-center">
+                <h6 class="card-subtitle mb-2 text-body-secondary"><b>4 a más Usuarios</b></h6>
+                <p class="card-text ">Inversión Mensual por cada Licencia</p>
+                <h1>US $5.<small><sup><b>99</b></sup></small></h1>
+                <p>(Precio de introducción incluye IVA y descuento del 27.4%)</p>
+
+                <div class="d-flex justify-content-center mb-2">
+                  <button type="button" class="btn" style="background: #161E70;; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                </div>
+
+                <div class="dropdown5 w-100 pt-2">
+                  <button class="btn border-primary dropdown-toggle text-center" type="button" id="dropdownMenuButton5" onclick="toggleDropdown('dropdownMenu5')" aria-haspopup="true" aria-expanded="false">
+                      Ver Detalles
+                  </button>
+                    <ul class="dropdown-menu5" id="dropdownMenu5" aria-labelledby="dropdownMenuButton5" style="text-align: left">
                       <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                        <p class="pl-2 mb-0">"Asistente de Auditoría"<br>
-                          Funciones: crear, modificar, y acceso a reportes de las fases de planeación, ejecución e informe de auditoría.
+                        <p class="pl-2 mb-0">Tú decides cuantos usuarios necesitas y la cantidad de usuarios "Socio de la firma", “Supervisor” y “Auditor” requieres.
+                          Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría conforme a cada tipo de usuario.
                            </p>
                       </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Licencia: 1 año.</p>
-                        </li>
-                        <li><div class="pl-2 d-flex justify-content-center">
-                            <div class="bordeado text-center"> <!-- Centrar el div -->
-                              <p class="mb-0"><b>Inversión Anual</b></p>
-                              <span class="numero-grande">US $229.<sup>00</sup></span>
-                              <p>(Precio de introducción incluye IVA y descuento del 22.9%)</p>
-                            </div>
-                           </div>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 shadow" style="border-color:black">
-              <div class="card-header" style="background: black"><h4 class="card-title">PLAN CORPORATIVO</h4>
-              </div>
-                <div class="card-body text-center">
-                   <h6 class="card-subtitle mb-2 text-body-secondary"><b>4 a más Usuarios</b></h6>
-                   <p class="card-text ">Inversión Mensual por cada Licencia</p>
-                   <h1>US $5.<small><sup><b>99</b></sup></small></h1>
-                   <p>(Precio de introducción incluye IVA y descuento del 27.4%)</p>
-                   
-                   <div class="d-flex justify-content-center"> <!-- Agregar esta línea -->
-                    <button type="button" class="btn mb-2" style="background: black; color:white">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                   </div>
-                   <div class="dropdown w-100" > <!-- Agregar la clase w-100 -->
-                    <button class="btn border-primary dropdown-toggle" type="button" id="dropdownMenuButton" onclick="toggleDropdown4()">
-                        Ver Detalles
-                    </button>
-                    <ul class="dropdown-menu" id="dropdownMenu4">
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Tú decides cuantos usuarios necesitas y la cantidad de usuarios "Socio de la firma", “Supervisor” y “Auditor” requieres.
-                              Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría conforme a cada tipo de usuario.
-                               </p>
-                        </li>
-                      
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Licencia: 1 año.</p>
-                        </li>
-                        <li><div class="pl-2 d-flex justify-content-center">
-                            <div class="bordeado text-center"> <!-- Centrar el div -->
-                              <p class="mb-0"><b>Inversión Anual por cada licencia</b></p>
-                              <span class="numero-grande">US $71.<sup>88</sup></span>
-                              <p>(Precio de introducción incluye IVA y descuento del 27.4%)</p>
-                            </div>
-                           </div>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 shadow border-primary">
-              <div class="card-header bg-primary"><h4 class="card-title" style="color: white;">PLAN CAMPUS</h4>
-              </div>
-                <div class="card-body text-center">
-                   <h6 class="card-subtitle mb-2 text-body-secondary"><b>10 a más Usuarios</b></h6>
-                   <p class="card-text ">Inversión Mensual</p>
-                   <h1>US $8.<small><sup><b>33</b></sup></small></h1>
-                   <p>(Precio de introducción por licencia incluye IVA)</p>
-                   
-                   <div class="d-flex justify-content-center"> <!-- Agregar esta línea -->
-                    <button type="button" class="btn btn-primary mb-2">Comprar <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                   </div>
-                   <div class="dropdown w-100" > <!-- Agregar la clase w-100 -->
-                    <button class="btn border-primary dropdown-toggle" type="button" id="dropdownMenuButton" onclick="toggleDropdown5()">
-                        Ver Detalles
-                    </button>
-                    <ul class="dropdown-menu" id="dropdownMenu5">
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">"Docente"<br>
-                              Funciones: crear, modificar, revisar, eliminar y acceso a reportes de todo el proceso de auditoría.
-                              </p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                          <p class="pl-2 mb-0">“Estudiante”<br>
-                            Funciones: crear, modificar, y acceso a reportes de las fases de planeación, ejecución e informe de auditoría.
-                            </p>
+                      <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
                       </li>
-                      
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Soporte personalizado por personal de OASYS Latam.</p>
-                        </li>
-                        <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
-                            <p class="pl-2 mb-0">Licencia: 6 meses.</p>
-                        </li>
-                        <li><div class="pl-2 d-flex justify-content-center">
-                            <div class="bordeado text-center"> <!-- Centrar el div -->
-                              <p class="mb-0"><b>Inversión Semestral</b></p>
-                              <span class="numero-grande">US $49.<sup>99</sup></span>
-                              <p>(Precio de introducción incluye IVA)</p>
+                      <li class="pl-2 d-flex"><i class="fa fa-check" aria-hidden="true"></i>
+                        <p class="pl-2 mb-0">Licencia: 1 año.</p>
+                      </li>
+                      <li>
+                        <div class="pl-2 d-flex justify-content-center">
+                           <div class="bordeado text-center"> <!-- Centrar el div -->
+                             <p class="mb-0"><b>Inversión Anual por cada licencia</b></p>
+                             <span class="numero-grande">US $71.<sup>88</sup></span>
+                             <p>(Precio de introducción incluye IVA y descuento del 27.4%)</p>
                             </div>
-                           </div>
-                        </li>
+                        </div>
+                      </li>
                     </ul>
                 </div>
-                </div>
+          
+              </div>
             </div>
+  
           </div>
-</div>
-</div><br><br>
+      </div>
+    </div>
+
+ </div><!--div del container principal-->
+
+
 <script>
  // Seleccionamos el elemento que queremos animar
  const quienesSomos = document.querySelector('.quienes-somos');
@@ -314,31 +362,52 @@ const observerNuestrosPlanes = new IntersectionObserver(entries => {
 // Observamos el elemento
 observerNuestrosPlanes.observe(nuestrosPlanes);
 
-function toggleDropdown1() {
-  var dropdownMenu1 = document.getElementById("dropdownMenu1");
-  dropdownMenu1.classList.toggle("active");
+
+//para animar planes empresariales
+// Seleccionamos el elemento que queremos animar
+const planesEmpre = document.querySelector('.plan-emp');
+
+// Creamos una nueva instancia de IntersectionObserver
+const observerPlanesEmpre = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        // Si el elemento está en la pantalla (es decir, tiene un índice de intersección mayor que 0)
+        if (entry.intersectionRatio > 0) {
+            // Añadimos la clase 'show' para mostrar el texto con una animación
+            planesEmpre.classList.add('show');
+        } else {
+            // Si el elemento ya no está en la pantalla, quitamos la clase 'show' para que la animación pueda repetirse
+            planesEmpre.classList.remove('show');
+        }
+    });
+});
+
+// Observamos el elemento
+observerPlanesEmpre.observe(planesEmpre);
+
+
+
+function toggleDropdown(dropdownMenuId) {
+    var dropdownMenu = document.getElementById(dropdownMenuId);
+    dropdownMenu.classList.toggle("active");
+    // Detener la propagación del evento click para evitar que se active el evento del documento
+    event.stopPropagation();
 }
 
-function toggleDropdown2() {
-  var dropdownMenu2 = document.getElementById("dropdownMenu2");
-  dropdownMenu2.classList.toggle("active");
-}
-function toggleDropdown3() {
-  var dropdownMenu3 = document.getElementById("dropdownMenu3");
-  dropdownMenu3.classList.toggle("active");
-}
-function toggleDropdown4() {
-  var dropdownMenu4 = document.getElementById("dropdownMenu4");
-  dropdownMenu4.classList.toggle("active");
-}
-function toggleDropdown5() {
-  var dropdownMenu5 = document.getElementById("dropdownMenu5");
-  dropdownMenu5.classList.toggle("active");
-}
+// Agregar un listener de click al documento para cerrar el menú desplegable si se hace clic fuera de él
+/*document.addEventListener("click", function(event) {
+    var dropdowns = document.querySelectorAll(".dropdown-menu1");
+    dropdowns.forEach(function(dropdown1) {
+        if (!dropdown1.contains(event.target)) {
+            dropdown1.classList.remove("active");
+        }
+    });
+});*/
+
+
 
 function enviarMensajeWhatsApp() {
     // Número de teléfono al que se enviará el mensaje
-    var numeroTelefono = "+50378823329"; // Reemplaza con el número al que deseas enviar el mensaje
+    var numeroTelefono = "+50375141115"; // Reemplaza con el número al que deseas enviar el mensaje
     
     // Mensaje que se enviará por WhatsApp
     var mensaje = "¡Hola! Estoy interesado en sus servicios. ¿Podemos hablar más al respecto?";
@@ -349,6 +418,13 @@ function enviarMensajeWhatsApp() {
     // Abre el enlace en una nueva pestaña del navegador
     window.open(enlaceWhatsApp);
   }
+
+
+
+
+
+
+
 </script>
 
 @endsection

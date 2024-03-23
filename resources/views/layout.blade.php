@@ -17,11 +17,13 @@
         <img class="imagenLogo" src="imagenes/BLANCO.png" style="max-height: 90px;">
         <nav>
             <ul>
-                <li><a href="{{ url('/home') }}">Inicio</a></li>
+                <li><a href="{{ url('/') }}">Inicio</a></li>
                 <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
-                <li><a href="#">Casos de Éxito</a></li>
+                <li><a href="#planes">Planes</a></li>
                 <li><a href="#">Software</a></li>
-                <li><a href="#">Publicaciones</a></li> <!-- Agregado el cierre de la etiqueta 'a' -->
+                <li><a href="#">Capacitación</a></li>
+                <li><a href="#">Casos de Éxito</a></li>
+               
             </ul>
         </nav>
     </header>
@@ -30,7 +32,7 @@
     @yield('content')
 
     <!-- Footer -->
-    <footer class="bg-dark text-light text-center py-4 fixed">
+    <footer class="bg-dark text-light text-center py-4">
         <i class="fab fa-whatsapp" style="font-size: 2em; color: green; cursor: pointer;" onclick="enviarMensajeWhatsApp()"></i>
         <div class="container">
             <div class="row align-items-center  pt-3 pb-3">
@@ -42,11 +44,15 @@
                     <h5>Contáctanos:</h5><br>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p class="pl-2 mb-0">+503(6858-5513)</p>
+                        <p class="pl-2 mb-0">+503(7514-1115)</p>
                     </div>
                     <div class="d-flex align-items-center">
-                        <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
+                        <i class="fa fa-globe" aria-hidden="true"></i>
                         <p class="pl-2 mb-0">www.oasys.com</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="pl-2 mb-0">soporte@oasys.com</p>
                     </div>
                 </div>
                 
