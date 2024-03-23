@@ -221,7 +221,8 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
-    margin-top: 200px;
+    margin-top: 0px;
+    padding-top: 110px;
 }
 .quienes-somos.show {
     opacity: 1;
@@ -471,6 +472,7 @@ z-index: 1;
     text-align: center;
     font-size: 3rem;
     margin-bottom: 0%;
+    padding-top: auto;
 }
 
 .txt-mision{
@@ -519,6 +521,7 @@ z-index: 1;
     text-align: center;
     font-size: 3rem;
     margin-bottom: 0%;
+    padding-top: auto;
     
 }
 
@@ -574,6 +577,9 @@ z-index: 1;
 }
 .container-mision .vision:hover{
     transform: scale(1.1);
+}
+.container-mision{
+    margin-top: 170px;
 }
 .casos{
     margin-top: 200px;
@@ -653,7 +659,10 @@ z-index: 1;
   }
   .text-valores{
     margin:0 auto;
-  }
+    font-family: 'Montserrat bold, Montserrat, Arial';
+ 
+
+}
 
   .texto-valores li h4{
     text-align: left;
@@ -673,13 +682,25 @@ z-index: 1;
       transform: translateY(0);
     }
   }
-  /*iconos*/
+  /*etiquetas*/
   .texto-valores li:before {
     content: "•"; /* Establece el contenido del antes del elemento li como un punto */
     margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
     color: #007bff; /* Color del punto */
     font-size: 3em;
+    padding-top: 0%;
+    position: relative;
+   
   }
+  .texto-valores{
+    text-align: left;
+    font-weight:bold;
+    opacity: 0;
+      transform: translateY(20px);
+      animation: slideIn 1s ease forwards;
+    color: #656C70;
+
+    }
   
 
 

@@ -5,53 +5,54 @@
 @section('content')
 <div class="container">
   <div class="container-mision">
-    <h1 class="quienes-somos text-primary text-center">¿QUIÉNES SOMOS?</h1>
+    <h1 class="quienes-somos text-primary d-flex justify-content-center">¿QUIÉNES SOMOS?</h1>
     <h4 class="text-center texto-quienes">Somos una empresa comprometida en buscar la 
       excelencia y calidad, a través de soluciones integrales 
       en nuestro software. <br>Ofrecemos nuestros servicios a 
       negocios en desarrollo. </h4>
   </div>
+</div>
 
     <div class="row">
-      <div class="col-md-6 img-mision">
+      <div class="col-md-6 img-mision mt-0">
         <h1 class="mision text-center">MISIÓN</h1>
-        <h4 class="txt-mision">Somos una empresa comprometida, 
+        <h4 class="txt-mision d-flex p-1">Somos una empresa comprometida, 
           dedicada a la excelencia y calidad, ofreciendo soluciones
           integrales por medio de softwares y servicios empresariales,
           dirigidos a trabajadores independientes y organizaciones en expansión. 
         </h4>
       </div>
     
-      <div class="col-md-6 img-vision">
+      <div class="col-md-6 img-vision mt-0">
         <h1 class="vision text-center">VISIÓN</h1>
-        <h4 class="txt-vision">Ser una empresa líder a nivel regional, reconocida por 
+        <h4 class="txt-vision d-flex p-1">Ser una empresa líder a nivel regional, reconocida por 
           garantizar servicios innovadores, integrales y de calidad 
           que contribuyan al desarrollo y crecimiento de nuestros clientes.
         </h4>
       </div>
     </div>
- 
+ <br>
   <div class="text-valores" style="width:80%;">
-    <h1 class="valores text-center">VALORES</h1>
+    <h1 class="valores text-center d-flex justify-content-center">VALORES</h1>
     <br>
-    <ul class="texto-valores">
-      <li class="pl-2  d-flex">
-        <h4 class="pl-2 mb-0"><b>Integridad:</b> Garantizando las buenas prácticas, herramientas y procesos con un sentido ético, siendo consecuente en todas las acciones</h4>
+    <ul class="texto-valores justify-content-center">
+      <li class="pl-2  d-flex mb-1">
+        <h3 class="pl-2 "><b>Integridad:</b> Garantizando las buenas prácticas, herramientas y procesos con un sentido ético, siendo consecuente en todas las acciones</h3>
       </li>
-      <li class="pl-2 d-flex">
-        <h4 class="pl-2 mb-0"><b>Excelencia:</b> ofrecemos soluciones que se caracterizan por la eficiencia y excelencia.
-        </h4>
+      <li class="pl-2 d-flex mb-1">
+        <h3 class="pl-2 "><b>Excelencia:</b> ofrecemos soluciones que se caracterizan por la eficiencia y excelencia.
+        </h3>
       </li>
-      <li class="pl-2 d-flex">
-        <h4 class="pl-2 mb-0"><b>Compromiso:</b> Comprometidos con la funcionalidad eficaz de los softwares.
-        </h4>
+      <li class="pl-2 d-flex mb-1">
+        <h3 class="pl-2 "><b>Compromiso:</b> Comprometidos con la funcionalidad eficaz de los softwares.
+        </h3>
       </li>
-      <li class="pl-2 d-flex">
-        <h4 class="pl-2 mb-0"><b>Calidad:</b> aseguramos los servicios de calidad que generan valor en los clientes.</h4>
+      <li class="pl-2 d-flex mb-1">
+        <h3 class="pl-2 "><b>Calidad:</b> aseguramos los servicios de calidad que generan valor en los clientes.</h3>
       </li>
-      <li class="pl-2 d-flex">
-        <h4 class="pl-2 mb-0"><b>Responsabilidad:</b> Cumplimos con los tiempos de entrega y asegurando la satisfacción de los clientes.
-        </h4>
+      <li class="pl-2 d-flex mb-1">
+        <h3 class="pl-2"><b>Responsabilidad:</b> Cumplimos con los tiempos de entrega y asegurando la satisfacción de los clientes.
+        </h3>
       </li>
     </ul>
   </div>
