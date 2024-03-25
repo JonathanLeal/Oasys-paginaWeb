@@ -21,8 +21,8 @@
    <div class="container">
      <div class="row col-md-6">
        
-          <div class=" imagen d-flex justify-content-center align-items-center">
-            <img src="imagenes/ISO-BLANCO.png"  class="img-fluid" style="width: 80%; height: auto; display: block; margin-top: 110px; maging-bottom: 0">
+          <div class="imagen d-flex justify-content-center align-items-center">
+            <img src="imagenes/ISO-BLANCO.png"  class="img-fluid" style="width: 80%; padding-bottom:0%;display: block; margin-top: 110px; maging-bottom: 0">
            
           </div>
             
@@ -33,10 +33,10 @@
    </div>
   </div>
 
- 
+ <br>
  <div class="container">
 
-     <h2 class="quienes-somos"></h2>
+     <!--h2 class="quienes-somos"></h2-->
      <div class="row h-100">
       <div class="col-md-6  d-flex flex-column">
         <div class="texto">
@@ -62,9 +62,8 @@
     </div>
     
 
-              <br><br>
-
-               <h1 class="nuestros-planes" id="planes">Planes Personales</h1><br>
+             
+               <h1 class="nuestros-planes" id="planes">PLANES PERSONALES</h1><br>
     <!--tarjetas, primer bloque-->
     <div class="container" style="text-align: center;">
       <div class="card-container">
@@ -170,7 +169,7 @@
 
     <!--segundo bloque de card, card 3-->
     <div class="container" style="text-align: center;">
-      <h1 class="plan-emp text-center">Planes Empresariales</h1><br>
+      <h1 class="plan-emp text-center">PLANES EMPRESARIALES</h1><br>
       <div class="card-container">
           <div style="width:100%">
             <div class="card h-100 shadow" style="border-color: #161E70;" >
@@ -327,8 +326,8 @@
           </div>
       </div>
     </div>
-<br>
-    <h1 class="d-flex justify-content-center" style="font-weight: bold">PREGUNTAS FRECUENTES</h1>
+<br><br>
+    <h1 class="d-flex justify-content-center preguntas" style="font-weight: bold">PREGUNTAS FRECUENTES</h1>
     <div class="accordion" id="accordionExample">
       <div class="card">
         <div class="card-header" id="headingOne">
@@ -369,27 +368,9 @@
 
 
 <script>
-  $('.collapse').collapse()
- // Seleccionamos el elemento que queremos animar
- const quienesSomos = document.querySelector('.quienes-somos');
+ 
 
-// Creamos una nueva instancia de IntersectionObserver
-const observerQuinesSomos = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        // Si el elemento está en la pantalla (es decir, tiene un índice de intersección mayor que 0)
-        if (entry.intersectionRatio > 0) {
-            // Añadimos la clase 'show' para mostrar el texto con una animación
-            quienesSomos.classList.add('show');
-        } else {
-            // Si el elemento ya no está en la pantalla, quitamos la clase 'show' para que la animación pueda repetirse
-            quienesSomos.classList.remove('show');
-        }
-    });
-});
-
-// Observamos el elemento
-observerQuinesSomos.observe(quienesSomos);
-
+ 
 // Seleccionamos el elemento que queremos animar
 const nuestrosPlanes = document.querySelector('.nuestros-planes');
 
@@ -412,7 +393,6 @@ observerNuestrosPlanes.observe(nuestrosPlanes);
 
 
 //para animar planes empresariales
-// Seleccionamos el elemento que queremos animar
 const planesEmpre = document.querySelector('.plan-emp');
 
 // Creamos una nueva instancia de IntersectionObserver
@@ -428,9 +408,27 @@ const observerPlanesEmpre = new IntersectionObserver(entries => {
         }
     });
 });
+observerPlanesEmpre.observe(planesEmpre);
+
+//para animar la seccion de preguntas
+const preguntas = document.querySelector('.preguntas');
+
+// Creamos una nueva instancia de IntersectionObserver
+const observerPreg = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        // Si el elemento está en la pantalla (es decir, tiene un índice de intersección mayor que 0)
+        if (entry.intersectionRatio > 0) {
+            // Añadimos la clase 'show' para mostrar el texto con una animación
+            preguntas.classList.add('show');
+        } else {
+            // Si el elemento ya no está en la pantalla, quitamos la clase 'show' para que la animación pueda repetirse
+            preguntas.classList.remove('show');
+        }
+    });
+});
 
 // Observamos el elemento
-observerPlanesEmpre.observe(planesEmpre);
+observerPreg.observe(preguntas);
 
 
 
@@ -470,7 +468,8 @@ function enviarMensajeWhatsApp() {
 
 
 
-
+ //para las preguntas frecuentes
+ $('.collapse').collapse()
 
 
 </script>

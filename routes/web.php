@@ -18,3 +18,5 @@ Route::get('/ad', function () {
 Route::get('/log', function () {
     return view('login');
 });
+
+

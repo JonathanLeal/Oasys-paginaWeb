@@ -19,7 +19,8 @@
             <ul>
                 <li><a href="{{ url('/') }}">Inicio</a></li>
                 <li><a href="{{ url('/nosotros') }}">Nosotros</a></li>
-                <li><a href="#planes">Planes</a></li>
+                <!--li><a href="#planes">Planes</a></li-->
+                <li><a href="/#planes">Planes</a></li>
                 <li><a href="#">Software</a></li>
                 <li><a href="#">Capacitación</a></li>
                 <li><a href="#">Casos de Éxito</a></li>
